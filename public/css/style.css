@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #17a2b8;
+    min-height: 100vh;
+    font-family: 'Poppins',
+    sans-serif;
+}
+
+h3{
+    font-weight: 600;
+}
+
+.box{
+    height: 400px;
+    width: 600px;
+    background-color: white;
+}
+
+.content{
+    margin-top: 80px;
+}
