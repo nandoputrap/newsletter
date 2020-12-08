@@ -20,3 +20,34 @@ h3{
 .content{
     margin-top: 80px;
 }
+
+@media only screen and (max-width: 768px) {
+    .box {
+        height: 450px;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-fluid{
+        min-height: 100vh;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .form-control{
+        width: 100%;
+    }
+
+    .box {
+        height: 450px;
+        width: 300px;
+        padding: 0;
+    }
+}
